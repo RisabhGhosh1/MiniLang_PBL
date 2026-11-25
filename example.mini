@@ -1,0 +1,16 @@
+let number = 5;
+let total = 0;
+
+while (number > 0) {
+    total = total + number;
+    number = number - 1;
+}
+
+print("Sum from 1 to 5:");
+print(total);
+
+if (total == 15) {
+    print("Program executed successfully!");
+} else {
+    print("Something went wrong.");
+}
